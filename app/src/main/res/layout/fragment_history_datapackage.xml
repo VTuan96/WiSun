@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bkset.vutuan.wisun.fragment.RealtimeDatapackageFragment">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Theo dõi lịch sử"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHistoryTime"
+        android:padding="10dp"
+        android:text="Vui lòng chọn ngày trên Menu!"
+        android:gravity="center"/>
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvHistoryDatapackage"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
